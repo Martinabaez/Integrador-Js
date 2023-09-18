@@ -1,0 +1,431 @@
+/* Tablet */
+@media (max-width: 992px) {
+  /*header*/
+
+  .navbar {
+    gap: 10px;
+  }
+
+  .cart-icon {
+    border: 0px solid;
+  }
+
+  .navbar-list {
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background-color:#ffffff;
+    border: 2px solid #0000;
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+  }
+
+  .navbar-list a {
+    font-size: 18px;
+  }
+
+  /* Mostrar  icono del menu */
+  .menu-label {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+  }
+
+  .menu-label img {
+    height: 20px;
+    width: 25px;
+  }
+
+  .open-menu {
+    display: flex;
+  }
+
+
+  /*Hero*/
+
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hero-info h1 {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+  }
+
+  .hero-info p {
+    width: 60%;
+    max-width: 600px;
+  }
+ /* cards */
+ #info{
+  padding: 50px 0;
+  gap:80px;
+}
+.info-card{
+  margin-top: -50px;
+   width: 400px;
+   height:400px;
+   }
+
+   .info-card h4{
+       margin-top: -13px;
+       font-size: 22px;
+   }
+   .info-card ul{
+       font-weight:400;
+       font-size: 16px;
+   }
+   .info-cards-container {
+    max-width: 80%;
+    gap: 70px;
+  }
+  
+     
+   #products h2 {
+    font-size: 28px;
+  }
+
+
+
+  /* Products */
+  .categories {
+    flex-wrap: wrap;
+    max-width: 390px;
+  }
+
+}
+
+@media (max-width:768px){
+  /*Hero*/
+  #hero {
+    background: url(../img/heroportada.jpg);
+    background-position: top;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 100vh;
+}
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-left: 20%;
+    margin: 0;
+  }
+  
+    .hero-info h1 {
+      font-size: 35px;
+  
+    }
+  
+    .hero-info p {
+      margin-top: -20px;
+      font-size: 16px;
+      width: 80%;
+      font-weight: 800;
+      color:#000000;
+    }
+
+  /* Products */
+  .categories {
+    flex-wrap: wrap;
+    max-width: 390px;
+  }
+
+  .category {
+    width: 120px;
+  }
+
+ /* About */
+.about h2 {
+  font-size: 16px;
+  width: 100%;
+  padding: 0px 10px;
+}
+  /* cards */
+#info{
+  padding: 50px 0;
+  gap:80px;
+}
+  .info-cards-container{
+    gap: 70px;
+}
+.info-card{
+  margin-top: -50px;
+   width: 400px;
+   height:400px;
+   }
+
+    .info-card h4{
+       margin-top: -13px;
+       font-size: 25px;
+   }
+   .info-card ul{
+       font-weight:400;
+       font-size: 16px;
+   }
+     
+   #products h2 {
+    font-size: 20px;
+  }
+    
+  /* contact */
+.contactus-title {
+ font-size: 18px;
+ width: 100%;
+}
+
+#contact-us {
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  gap: 40px;
+  font-size: 16px;
+}
+
+.contact-info-container {
+  height: 80%;
+}
+
+.create-ticket-btn {
+  width: 180px;
+  font-size: 14px;
+}
+
+
+  /* footer */
+footer {
+  gap: 20px;
+  padding: 10px 0;
+}
+
+footer a,
+footer p {
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+/* Celu */
+@media (max-width: 576px) {
+  /* Modificar el carrito para celu*/
+  .cart {
+    left: 0;
+    width: 100%;
+    border: none;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+
+  /*Hero*/
+  #hero {
+    background: url(../img/heroportada.jpg);
+    background-position: top;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  margin: 0;
+}
+
+  .hero-info h1 {
+    font-size: 25px;
+
+  }
+
+  .hero-info p {
+    margin-top: -20px;
+    font-size: 12px;
+    width: 80%;
+    font-weight: 800;
+    color:#000000;
+  }
+
+  /* About */
+.about h2 {
+  font-size: 14px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+ /* cards */
+ #info{
+  padding: 50px 0;
+  gap:80px;
+}
+  .info-cards-container{
+    gap: 70px;
+}
+.info-card{
+  margin-top: -50px;
+   width: 300px;
+   height:300px;
+   }
+
+   .info-card h4{
+       margin-top: -13px;
+       font-size: 17px;
+   }
+   .info-card ul{
+       font-weight:400;
+       font-size: 13px;
+   }
+     
+   #products h2 {
+    font-size: 28px;
+  }
+
+  /* products */
+  .categories {
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .products-container {
+    width: 80%;
+  }
+
+  .product {
+    width: 80%;
+  }
+
+  .btn-add,
+  .btn-buy,
+  .btn-delete {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+  .btn-load {
+    font-size: 12px;
+    padding: 10px 30px;
+    color: #000000;
+  }
+  /* contact */
+.contactus-title {
+ font-size: 14px;
+}
+
+#contact-us {
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  gap: 40px;
+  font-size: 14px;
+}
+
+.contact-info-container {
+  height: 70%;
+
+}
+
+.create-ticket-btn {
+  width: 180px;
+  font-size: 14px;
+}
+  /* footer */
+footer {
+  gap: 20px;
+  padding: 10px 0;
+}
+
+footer a,
+footer p {
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+@media (max-width: 450px) {
+  .cart {
+    min-width: unset;
+  }
+  .cart-container {
+    align-items: center;
+  }
+  .cart-item {
+    width: 70%;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .item-info {
+    text-align: center;
+  }
+  .btn-load {
+    font-size: 10px;
+    padding: 10px 30px;
+    color: #000000;
+  }
+  
+   /* contact */
+.contactus-title {
+  font-size: 10px;
+ }
+ 
+ #contact-us {
+   width: 100%;
+   height: 400px;
+   padding: 30px;
+   gap: 30px;
+   font-size: 12px;
+ }
+ 
+ .contact-info-container {
+   height: 70%;
+ 
+ }
+
+ .create-ticket-btn {
+   width: 130px;
+   font-size: 10px;
+ }
+
+ /* footer */
+footer {
+  gap: 20px;
+  padding: 10px 0;
+}
+
+footer a,
+footer p {
+  font-size: 8px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+}

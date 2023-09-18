@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escuela Extrema</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/Css/contact.css">
+  <link rel="stylesheet" href="./assets/Css/styles.css" />
+  <link rel="stylesheet" href="./assets/Css/mediaqueries.css" />
+  <!--  FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="./index.html"><img src="./assets/img/logo.png" alt="Logo de Nucba NFT" class="logo"></a>
+    <nav class="navbar">
+      <div class="menu-label">
+        <img src="./assets/img/menu.png" alt="" class="menu-icon" />
+      </div>
+
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="#hero">Inicio</a></li>
+        <li><a class="navbar-link" href="#about">Nosotros</a></li>
+        <li><a class="navbar-link" href="#products">Servicios</a></li>
+        <li><a class="navbar-link" href="#contact-us">Contacto</a></li>
+      </ul>
+
+      <div class="cart-label">
+
+        <i class="fa-solid fa-cart-shopping cart-icon">
+          <div class="cart-bubble">0</div>
+        </i>
+      </div>
+
+
+      <div class="cart">
+
+        <h2>Tus clases</h2>
+
+
+        <div class="cart-container">
+
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="cart-total">
+          <p>Total:</p>
+          <span class="total">$70000</span>
+        </div>
+        <button class="btn-buy">Comprar</button>
+        <button class="btn-delete">Vaciar carrito</button>
+      </div>
+
+      <div class="overlay"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section id="hero">
+      <div class="hero-info">
+        <h1>Escuela Extrema</h1>
+        <p>
+          Desde Escuela Extrema buscamos conectar con la naturaleza, para juntos lograr experiencias inolvidables 
+          de una manera sustentable, para que nuestro parque de diversiones sea infinito.
+        </p>
+      </div>
+    </section>
+      <section id="about">
+        <div class="about">
+          <h2> <p>
+            Somos una escuela que a partir del año 2013,decidimos capacitarnos para lograr que nuestros alumnos y alumnas tengan un aprendizaje efectivo y seguro
+    En cuanto a la nieve,nos capacitamos con <a href="https://aadidess.com/" target="_blank"><b>AADIDESS</b></a>. Transitamos los niveles necesarios hasta alcanzar el nivel 3, consiguiendo la estampilla ISIA.
+    En cuanto al Kitesurf nos capacitamos con <a href="https://www.ikointl.com/es" target="_blank"><b>Asociación IKO</b></a>,la cual nos dio la posibilidad de certificar a nuestros clientes.
+        </div>
+      </section>
+      <section id="info">
+        <h3>SERVICIOS</h3>
+        <div class="info-cards-container">
+          <div class="info-card">
+            <h4>Clases de Kitesurf</h4>
+              <ul>
+                <li>1h: Introducción al deporte/equipo. Nociones de viento. Vuelo en tierra</li><br>
+                <li>2hs: Ingreso al agua con desplazamientos "body drag"</li><br>
+                <li>3hs: Body drag con tabla + recupero de tabla</li><br>
+                <li>10hs: Pase por navegar "Water star" </li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h4>Clases de Snowboard</h4>
+            <ul>
+              <li>1h: Introducción al deporte.Postura/equilibrio.Primeros deslizamientos</li><br>
+              <li>2hs: Direccionar la tabla. Derrape de talones (back) y de puntas (front)</li><br>
+              <li>3hs:Introducción a las curvas cambiando de front a back y de back a front. </li><br>
+          </ul>
+  
+          </div>
+        </div>
+      </section>
+    <!-- products -->
+    <section id="products">
+      <h2>Reservá tus clases</h2>
+      <!-- categories -->
+      <div class="categories">
+        <button class="category active">Ver Todas</button>
+        <button class="category" data-category="Kitesurf">Kitesurf</button>
+        <button class="category" data-category="Snowboard">Snowboard</button>
+      </div>
+
+      <!-- products -->
+      <div class="products-container">
+
+      </div>
+      <div class="add-modal"></div>
+      <button class="btn-load">Ver Más</button>
+    </section>
+  </main>
+ 
+   <!--Contact Form-->
+
+   <section id="contact-us">
+    <h2 class="contactus-title">¿Tenés dudas? Podés comunicarte por los siguientes medios:</h2>
+    <div class="contact-info-container">
+      <div class="left-side">
+        <span>HORARIOS DE ATENCIÓN:</span>
+        <span>LUNES A VIERNES DE 08:00 A 16:00 HS</span>
+      </div>
+
+      <div class="mid-side">
+        <div class="contact-list">
+
+          <div class="contact-">
+            <i class="icono fa-regular fa-snowflake"></i>
+            <p>San Carlos de Bariloche</p>
+          </div>
+            <div class="contact-">
+              <i class="icono fa-solid fa-wind"></i>
+              <p>Pehuajó,Buenos Aires</p>
+            </div>
+
+          <div class="contact-">
+            <i class="icono fa-solid fa-phone"></i>
+            <p>+54 2396543210</p>
+          </div>
+          <div class="contact-">
+            <i class="icono fa-solid fa-envelope"></i>
+            <p>EscuelaExtrema@hotmail.com</p>
+          </div>
+        </div>
+  
+        <a class="create-ticket-btn" href="./assets/pages/contact.html"
+          >Quiero contactarme</a
+        >
+      </div>
+
+    </div>
+  </section>
+</main>
+  <footer>
+    <div>
+      <ul class="footer-links">
+        <li><a href="#">Términos de Uso</a></li>
+        <li><a href="#">Trabajá con Nosotros</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+    </div>
+    <p>Copyright © 2023 Escuela Extrema. Todos los derechos reservados</span></p>
+  </footer>
+  <script src="./assets/Data/data.js"></script>
+  <script src="./assets/Data/index.js"></script>
+</body>
+
+</html>

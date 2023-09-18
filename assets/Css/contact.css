@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+.return-btn {
+  color: rgb(255, 255, 255);
+  background:#058162;
+  border: 1px solid;
+  width: 130px;
+  text-align: center;
+  padding: 5px;
+}
+
+main{
+  background-color: rgba(35, 110, 97, 0.253);
+  width: 100%;
+}
+
+#contact-section {
+  margin: 100px 0px;
+  width: 80%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-section-title{
+color: black;
+font-size: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+}
+
+.msg {
+  /* display: block; */
+  font-size: 16px;
+  color: red;
+}
+
+/* .name,
+.lastname,
+.email,
+.asunto,
+.textarea */
+.form_field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  gap: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+}
+
+.name-input,
+.lastname-input,
+.email-input,
+.asunto-input,
+.textarea-input {
+  width: 80%;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+/* Diseño para muestra de Error o Verificacion correcta de inputs */
+
+.error {
+  border-bottom: 2px solid red;
+}
+
+.noerror {
+  border-bottom: 2px solid #058162;
+}
+
+/* ================================================================== */
+
+
+.submit-btn {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 300px;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid white;
+}
+
+/* Detalles de Inputs */
+
+.name-input:focus,
+.lastname-input:focus,
+.email-input:focus,
+.asunto-input:focus,
+.textarea-input:focus {
+  outline: none;
+}
+
+.submit-btn:hover {
+  border: 1px solid #058162;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+/* Media Queries */
+
+@media (max-width: 992px) {
+ 
+  #contact-section {
+    gap: 40px;
+  }
+
+  .contact-section-title {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width:768px){
+  /* Medium */
+  .return-btn {
+    width: 120px;
+    font-size: 14px;
+  } 
+#contact-section {
+  width: 100%
+}
+.submit-btn {
+  width: 180px;
+  font-size: 14px;
+}
+}
+
+@media (max-width: 576px) {
+
+  .return-btn {
+    width: 110px;
+    font-size: 12px;
+  } 
+  #contact-section {
+    width: 100%
+  }
+  .contact-section-title {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+  .submit-btn {
+    width: 150px;
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 450px) {
+}

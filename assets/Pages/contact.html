@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escuela Extrema- Contacto</title>
+    <link rel="icon" href="/assets/img/navbar/tab-icon.png">
+    <link rel="stylesheet" href="../Css/contact.css" />
+    <link rel="stylesheet" href="../Css/styles.css" />
+    <link rel="stylesheet" href="../Css/mediaqueries.css" />
+
+  </head>
+  <body>
+    <header class="header">
+        <a href="/index.html"><img src="../img/logo.png"  alt="Escuela de Kitesurf y Snowboard" class="logo"></a>
+     
+     <nav class="navbar">
+        <a class="return-btn" href="/index.html">Volver a Inicio</a>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section id="contact-section">
+        <h2 class="contact-section-title">
+         Dejanos un mensaje y en breve nos pondremos en contacto
+        </h2>
+        <form class="form-container" id="contact-form" novalidate>
+          <div class="section1">
+            <div class="name form_field">
+              <input class="name-input" id="name" type="text" placeholder="Nombre" autocomplete="off" />
+              <span class="name-msg msg"></span>
+            </div>
+
+            <div class="lastname form_field">
+              <input
+                class="lastname-input"
+                id="lastName"
+                type="text"
+                placeholder="Apellido"
+                autocomplete="off"
+              />
+              <span class="lastname-msg msg"></span>
+            </div>
+          </div>
+
+          <div class="email form_field">
+            <input class="email-input" id="email" type="email" placeholder="Email" autocomplete="off" />
+            <span class="email-msg msg"></span>
+          </div>
+
+          <div class="asunto form_field">
+            <input class="asunto-input" id="asunto" type="text" placeholder="Asunto" autocomplete="off" />
+            <span class="asunto-msg msg"></span>
+          </div>
+
+          <div class="textarea form_field">
+            <textarea
+              class="textarea-input"
+              name="message"
+              id="message"
+              cols="30"
+              rows="6"
+              placeholder="Mensaje"
+              autocomplete="off"
+            ></textarea>
+            <span class="textarea-msg msg"></span>
+          </div>
+          <input class="submit-btn" type="submit" value="Enviar Mensaje" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="footer-links">
+          <li><a href="#">Términos de Uso</a></li>
+          <li><a href="#">Trabajá con Nosotros</a></li>
+          <li><a href="#">Soporte</a></li>
+        </ul>
+      </div>
+      <p>Copyright © 2023 Escuela Extrema. Todos los derechos reservados</span></p>
+    </footer>
+    <script src="../Data/contact.js"></script>
+  </body>
+</html>
