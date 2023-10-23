@@ -69,6 +69,11 @@
     width: 60%;
     max-width: 600px;
   }
+  .about {
+    text-align: center;
+    margin:0px 30px;
+  }
+
  /* cards */
  #info{
   padding: 50px 0;
@@ -137,6 +142,13 @@
       width: 80%;
       font-weight: 800;
       color:#000000;
+    }
+
+    .about {
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%
+    
     }
 
   /* Products */
@@ -268,10 +280,15 @@ footer p {
   }
 
   /* About */
+  .about {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%
+  }
 .about h2 {
   font-size: 14px;
   width: 100%;
-  padding: 0px 10px;
+
 }
 
  /* cards */
@@ -369,6 +386,12 @@ footer p {
 
 
 @media (max-width: 450px) {
+
+  .about {
+    text-align: center;
+      margin-left: 10%;
+      margin-right: 10%
+  }
   .cart {
     min-width: unset;
   }
